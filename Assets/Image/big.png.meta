@@ -253,9 +253,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4220
+        y: 4225
         width: 96
-        height: 175
+        height: 92
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,6 +706,27 @@ TextureImporter:
       bones: []
       spriteID: d2a3dba77b1b09944a834a24550a6a23
       internalID: 905503119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: big_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4317
+        width: 96
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee3f0cbe5c727f74ca973b32ce7b81fd
+      internalID: 1371015984
       vertices: []
       indices: 
       edges: []

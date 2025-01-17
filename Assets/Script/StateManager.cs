@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class StateManager : MonoBehaviour
 {
+    public static StateManager instance;
     public GameObject smallCharacter;
     public GameObject bigCharacter;
     public GameObject specialCharacter;
 
-    private CharacterBase currentState;
+    public CharacterBase currentState;
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         SetState(bigCharacter);
